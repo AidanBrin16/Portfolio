@@ -1,0 +1,2 @@
+information: student, program + year, age(?), other
+Interests: Gaming, Sports (hockey, climbing, biking, snowboarding, ...)

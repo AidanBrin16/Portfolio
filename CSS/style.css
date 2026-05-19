@@ -1,0 +1,61 @@
+body {
+    padding-top: 56px;
+}
+
+.Me img {
+  width: 300px;
+  height: 300px;       
+  object-fit: cover;   
+  object-position: center;  
+  display: block;
+}
+
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%);  
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);  
+}
+
+.Design1 img {
+  width: 100px;
+  height: 100px;       
+  object-fit: fill;   
+  object-position: center;  
+  display: block;
+}
+
+.Design2 img {
+  width: 100px;
+  height: 100px;       
+  object-fit: cover;   
+  object-position: center;  
+  display: block;
+}
+
+.Design3 img {
+  width: 100px;
+  height: 100px;       
+  object-fit: cover;   
+  object-position: center;  
+  display: block;
+}
+
+.Design4 img {
+  width: 100px;
+  height: 100px;       
+  object-fit: fill;   
+  object-position: center;  
+  display: block;
+}
