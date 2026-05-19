@@ -16,33 +16,57 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Home</a>
-      <b class="navbar-brand" href="#">About Me</b>
-      <c class="navbar-brand" href="#">Case Studies</c>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">MySite</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#case-studies">Case Studies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">How I Work</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+
+  </div>
+</nav>
 
   <div class="container mt-5">
     <h1 class="display-4">Hello, my name is Aidan Brin.</h1>
-    <p class="lead">My Bootstrap 5 site is live.</p>
+    <p class="my-text">My Bootstrap 5 site is live.</p>
   </div>
 
-  <script>
-    fetch('Text/About Me.txt')
-      .then(response => response.text())
-      .then(text => {
-        document.getElementById('my-text').innerText = text;
-      })
-      .catch(error => {
-        document.getElementById('my-text').innerText = 'Failed to load content.';
-        console.error('Error:', error);
-      });
-  </script>
+<section id="about" class="container mt-5">
+  <h2>About Me</h2>
+  <p id="about-text">Loading...</p>
+</section>
+
+<section id="work" class="container mt-5">
+  <h2>Case Studies</h2>
+  <p id="work-text">Loading...</p>
+</section>
+
+<section id="case-studies" class="container mt-5">
+  <h2>Case Studies</h2>
+  <p id="work-text">Loading...</p>
+</section>
+
 
   <!-- Bootstrap 5 JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
+
+<script src="JS/script.js"></script>
+
 </body>
 </html>
