@@ -12,6 +12,9 @@ body {
 
 .banner{
     position: relative;
+    background-color: #262729;
+    margin: 0;
+    padding: 0;
 }
 .banner img{
     width: 100%;
@@ -61,4 +64,10 @@ body {
 }
 section{
   scroll-margin-top: 70px;
+}
+
+.about-box {
+  background-color: #262729;  /* change this to any color you want */
+  padding: 60px 0;            /* space above and below the content */
+  color: white;
 }
