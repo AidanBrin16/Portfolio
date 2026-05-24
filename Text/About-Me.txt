@@ -1,2 +1,3 @@
-information: student, program + year, age(?), other
-Interests: Gaming, Sports (hockey, climbing, biking, snowboarding, ...)
+Hello, my name is Aidan Brin and I am a student at the University of Ottawa in computer engineering.
+Outside of school, I like to practice many sports such as Hockey, rock climbing and biking. In my 
+spare time in front of the computer, I enjoy spending my time playing games.
