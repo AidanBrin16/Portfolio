@@ -13,6 +13,46 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Case studies 2x2 grid layout */
+    #case-studies .case-study-card {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      height: 100%;
+      padding: 1rem;
+      border: 1px solid #dee2e6;
+      border-radius: 0.5rem;
+    }
+ 
+    #case-studies .case-study-card .case-study-img {
+      flex: 0 0 45%;
+      max-width: 45%;
+    }
+ 
+    #case-studies .case-study-card .case-study-img img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.375rem;
+    }
+ 
+    #case-studies .case-study-card .case-study-text {
+      flex: 1;
+    }
+ 
+    #case-studies .case-study-card .case-study-text h4 {
+      margin-bottom: 0.5rem;
+    }
+ 
+    #case-studies .case-study-card .case-study-text p {
+      margin-bottom: 0;
+    }
+ 
+    #case-studies .row.g-4 {
+      margin-top: 0.5rem;
+    }
+  </style>
+
 </head>
 <body>
 
@@ -69,38 +109,62 @@
   </div>
 </section>
 
-<section id="work" class="container mt-5">
-  <h2>How I Work</h2>
-  <p id="work-text">Loading...</p>
-</section>
-
 <section id="case-studies" class="container mt-5">
   <h2>Case Studies</h2>
-
-  <div class="Design1">
-    <h4>Service Site</h4>
-      <p><a href="https://servicesiteabrin.netlify.app"><img src="Images/Design1.png" alt="Service site" class="img-fluid" /></a>
-      <p id="design1-text">Aidan's Restaurant</p>
-  </div>
-
-  <div class="Design2">
-    <h4>Memory Game</h4>
-      <p><a href="https://memorygameabrin.netlify.app"><img src="Images/Design2.jpg" alt="Memory game" class="img-fluid" /></a>
-      <p id="design1-text">Website for memory game.</p>
-  </div>
-
-  <div class="Design3">
-    <h4>E-commerce Site</h4>
-    <p><a href="https://ecommerceabrin.netlify.app/"><img src="Images/Design3.png" alt="E-commerce site" class="img-fluid" /></a>
-      <p id="design1-text">Website for e-commerce.</p>
-  </div>
-
-  <div class="Design4">
-    <h4>Analytics Site</h4>
-      <p><a href="Design4/"><img src="Images/Design4.png" alt="Analytics site" class="img-fluid" /></a>
-      <p id="design1-text">Website for analytics.</p>
+ 
+  <div class="row g-4">
+ 
+    <div class="col-md-6">
+      <div class="case-study-card">
+        <a href="https://servicesiteabrin.netlify.app" class="case-study-img">
+          <img src="Images/Design1.png" alt="Service site" />
+        </a>
+        <div class="case-study-text">
+          <h4>Service Site</h4>
+          <p>Aidan's Restaurant</p>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="col-md-6">
+      <div class="case-study-card">
+        <a href="https://memorygameabrin.netlify.app" class="case-study-img">
+          <img src="Images/Design2.jpg" alt="Memory game" />
+        </a>
+        <div class="case-study-text">
+          <h4>Memory Game</h4>
+          <p>Website for memory game.</p>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="col-md-6">
+      <div class="case-study-card">
+        <a href="https://ecommerceabrin.netlify.app/" class="case-study-img">
+          <img src="Images/Design3.png" alt="E-commerce site" />
+        </a>
+        <div class="case-study-text">
+          <h4>E-commerce Site</h4>
+          <p>Website for e-commerce.</p>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="col-md-6">
+      <div class="case-study-card">
+        <a href="Design4/" class="case-study-img">
+          <img src="Images/Design4.png" alt="Analytics site" />
+        </a>
+        <div class="case-study-text">
+          <h4>Analytics Site</h4>
+          <p>Website for analytics.</p>
+        </div>
+      </div>
+    </div>
+ 
   </div>
 </section>
+
 
 
   <!-- Bootstrap 5 JS -->
